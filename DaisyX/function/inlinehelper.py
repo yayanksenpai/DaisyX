@@ -62,7 +62,7 @@ async def inline_help_func(__HELP__):
             title="Inline Commands",
             description="Help Related To Inline Usage.",
             input_message_content=InputTextMessageContent(__HELP__),
-            thumb_url="https://telegra.ph/file/109e8fe98acc6d262b7c6.jpg",
+            thumb_url="https://telegra.ph/file/938f60964a97c19d7e507.jpg",
             reply_markup=buttons,
         )
     ]
@@ -80,14 +80,14 @@ async def alive_function(answers):
     )
 
     msg = f"""
-**[DaisyX✨](https://github.com/TeamDaisyX):**
+**[Snow White](https://t.me/Heroine_SnowBot):**
 **MainBot:** `{bot_state}`
 **UserBot:** `Alive`
 **Python:** `3.9`
 **Pyrogram:** `{pyrover}`
 **MongoDB:** `{mongover}`
 **Platform:** `{sys.platform}`
-**Profiles:** [BOT](t.me/{BOT_USERNAME}) | [UBOT](t.me/daisyxhelper)
+**Profiles:** [BOT](t.me/{BOT_USERNAME}) | [DEV](t.me/katarina_ox)
 """
     answers.append(
         InlineQueryResultArticle(
